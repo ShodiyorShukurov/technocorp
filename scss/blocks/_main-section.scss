@@ -1,0 +1,116 @@
+ /************* MAIN STYLES START *************/
+ /************* MAIN SECTION STYLES START ********/
+ .main-section__wrapper {
+     padding-bottom: 36px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .main-section__left {
+     padding-top: 203px;
+ }
+
+ .main-section__title {
+     margin-top: 0;
+     margin-bottom: 40px;
+     width: 100%;
+     max-width: 620px;
+     font-weight: 700;
+     font-size: 42px;
+     line-height: 65px;
+     color: var(--header-text-color);
+ }
+
+ .main-section__text {
+     margin-top: 0;
+     margin-bottom: 64px;
+     width: 100%;
+     max-width: 530px;
+     font-size: 20px;
+     line-height: 163%;
+     color: var(--main-text-color);
+ }
+
+ .main-section__btns {
+     display: flex;
+     align-items: center;
+ }
+
+ .main-section__input {
+     padding-top: 26px;
+     padding-bottom: 25px;
+     padding-left: 20px;
+     padding-right: 254px;
+     display: inline;
+     border: none;
+     background-color: #FFFFFF;
+     box-shadow: 0px 0px 30px rgba(9, 103, 38, 0.1);
+ }
+
+ .main-section__input:active {
+     border: none;
+ }
+
+ .invalid-text {
+     display: none;
+     font-size: 10px;
+     line-height: 12px;
+     color: #F67E7E;
+ }
+ .site-header__input:not(:placeholder-shown):not(:focus):invalid{
+    border-bottom: 3px solid #ff0000;
+}
+ .site-header__input:not(:placeholder-shown):not(:focus):invalid + .invalid-text {
+     display: block;
+ }
+
+ .main-section__btn {
+     display: inline;
+     padding: 26px 31px 25px 16px;
+     background-color: #0A7F2E;
+     font-weight: 600;
+     font-size: 15px;
+     line-height: 18px;
+     color: #FFFFFF;
+ }
+
+ .main-section__left--text {
+     margin-top: 292px;
+     font-size: 20px;
+     line-height: 24px;
+     color: #BBBBBB;
+ }
+
+ .main-section__right {
+     padding-top: 92px;
+ }
+
+ .main-section__right--title {
+     width: 100%;
+     max-width: 250px;
+     margin-top: 59px;
+     margin-bottom: 26px;
+     padding-bottom: 11px;
+     font-weight: 600;
+     font-size: 35px;
+     line-height: 42px;
+     color: #FFFFFF;
+     border-bottom: 1px solid #FFFFFF;
+ }
+
+ .main-section__right--text {
+     margin: 0;
+     margin-bottom: 43px;
+     font-size: 20px;
+     line-height: 24px;
+     color: rgba(255, 255, 255, 0.7);
+ }
+
+ .main-section__right--logo {
+     display: flex;
+     margin: 0 auto;
+ }
+
+ /************* MAIN SECTION STYLES END ********/
+ /************* MAIN STYLES END *************/
