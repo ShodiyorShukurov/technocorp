@@ -2,9 +2,9 @@
  /************* MAIN SECTION STYLES START ********/
  .main-section__wrapper {
      padding-bottom: 36px;
+     position: relative;
      width: 100%;
      display: flex;
-     justify-content: space-between;
  }
 
  .main-section__left {
@@ -41,7 +41,7 @@
      padding-top: 26px;
      padding-bottom: 25px;
      padding-left: 20px;
-     padding-right: 254px;
+     padding-right: 240px;
      display: inline;
      border: none;
      background-color: #FFFFFF;
@@ -58,10 +58,8 @@
      line-height: 12px;
      color: #F67E7E;
  }
- .site-header__input:not(:placeholder-shown):not(:focus):invalid{
-    border-bottom: 3px solid #ff0000;
-}
- .site-header__input:not(:placeholder-shown):not(:focus):invalid + .invalid-text {
+
+ .site-header__input:not(:placeholder-shown):not(:focus):invalid+.invalid-text {
      display: block;
  }
 
@@ -82,7 +80,32 @@
      color: #BBBBBB;
  }
 
+ .main-section__dotten-img {
+     position: absolute;
+     top: 150px;
+     left: calc(50% - 660px);
+ }
+
+ .main-section__main-img {
+     position: absolute;
+     top: 646px;
+     left: calc(50% - 680px);
+ }
+
+ .main-section__line-img {
+     position: absolute;
+     top: 950px;
+     left: calc(50% - 660px);
+ }
+
+ .main-section__text-img {
+     position: absolute;
+     top: 940px;
+     left: calc(50% + 40px);
+ }
+
  .main-section__right {
+     margin-left: 70px;
      padding-top: 92px;
  }
 
@@ -111,6 +134,7 @@
      display: flex;
      margin: 0 auto;
  }
+
 
  /************* MAIN SECTION STYLES END ********/
  /************* MAIN STYLES END *************/
