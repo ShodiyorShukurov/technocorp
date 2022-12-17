@@ -1,9 +1,11 @@
 /************ HEADER STYLES START *************/
 .site-header {
     width: 100%;
-   
+    background-image: linear-gradient(to right, #FFFFFF 55%, #0A7F2E 50%);
 }
-
+.services-site__header{
+    width: 100%;
+}
 .site-header__wrapper {
     padding-top: 50px;
     display: flex;
@@ -53,7 +55,12 @@
     line-height: 19px;
     color: #FFFFFF;
 }
-
+.services-contact__number{
+    margin-right: 50px;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--main-services-color);
+}
 .site-header__search {
     margin-right: 45px;
     width: 30px;
@@ -72,5 +79,10 @@
     line-height: 19px;
     color: #FFFFFF;
 }
-
+.services-site__header--btn{
+    padding: 15px 41px 16px 33px;
+    border: 1px solid var(--main-services-color);
+    line-height: 19px;
+    color: var(--main-services-color);
+}
 /************ HEADER STYLES END *************/
