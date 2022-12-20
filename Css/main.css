@@ -808,19 +808,19 @@ ul {
 
 .portfolio-section__xizmatlar-line {
   position: absolute;
-  top: 100px;
+  top: 35px;
   left: calc(50% - 650px);
 }
 
 .portfolio-section__img {
   position: absolute;
-  top: 575px;
+  top: 560px;
   left: calc(50% - 670px);
 }
 
 .portfolio-section__line {
   position: absolute;
-  top: 820px;
+  top: 800px;
   left: calc(50% - 650px);
 }
 
